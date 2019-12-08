@@ -1,12 +1,13 @@
 # currency-information
 
 > A simple Application to check exchange rates, currency values and plot currency graphs using VUE
+>
 Uses the very well written free API to get currency prices [frankfurter](https://github.com/hakanensari/frankfurter)
 
 # TO - DO
 
-> API to convert a currency amount to another currency
-> Charts and graphs for currency value over time
++ API to convert a currency amount to another currency
++ Charts and graphs for currency value over time
 
 ## Build Setup
 
