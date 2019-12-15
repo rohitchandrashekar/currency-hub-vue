@@ -4,8 +4,12 @@
       id="currencySelect"
       text="Select Currency"
       class="m-md-2"
+      v-model="selected"
       @change="handleChangeEvent"
     >
+      <template v-slot:first>
+        <option :value="null" disabled>-- Please select a currency --</option>
+      </template>
       <option v-bind:value="currency" v-for="(currencyName, currency) in currencyList" v-bind:key="currency">{{currencyName}}</option>
     </b-form-select>
   </div>
@@ -17,6 +21,7 @@ export default {
   data() {
     return {
       msg: "Currency Information",
+      selected: null,
       currencyList: {},
     };
   },
