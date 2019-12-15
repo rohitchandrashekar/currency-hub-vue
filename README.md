@@ -6,9 +6,9 @@ Uses the very well written free API to get currency prices [frankfurter](https:/
 
 # TO - DO
 
-+ - [ ] API to convert a currency amount to another currency
-+ - [ ] Charts and graphs for currency value over time
-
+ - [ ] Convert a currency with an input amount to another currency
+ - [X] Charts for currency value over time
+ - [X] Display the all the major current currency Exchange rates for a selected currency
 ## Build Setup
 
 ``` bash
