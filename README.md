@@ -6,8 +6,8 @@ Uses the very well written free API to get currency prices [frankfurter](https:/
 
 # TO - DO
 
-+ API to convert a currency amount to another currency
-+ Charts and graphs for currency value over time
++ - [ ] API to convert a currency amount to another currency
++ - [ ] Charts and graphs for currency value over time
 
 ## Build Setup
 
